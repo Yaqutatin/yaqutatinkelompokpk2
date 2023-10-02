@@ -19,6 +19,7 @@ a {
   background-size: cover;
   color: white;
   text-align: center;
+  background-color: #ff5733; /* Ganti kode warna sesuai keinginan Anda */
 }
 
 .top-wrapper h1 {
@@ -41,16 +42,16 @@ a {
   margin: 10px 0;
 }
 
-.signup {
+.alamat {
   background-color: #239b76;
 }
 
-.facebook {
+.kontak {
   background-color: #3b5998;
   margin-right: 10px;
 }
 
-.twitter {
+.email {
   background-color: #55acee;
 }
 
@@ -75,10 +76,6 @@ header {
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
   position: fixed;
-  
-  
-  /* Ubah z-index ke 10 */
-  
 }
 
 .logo {
@@ -112,6 +109,7 @@ header {
   padding-bottom: 80px;
   background-color: #f7f7f7;
   text-align: center;
+  background-color: #3498db; /* Ganti kode warna sesuai keinginan Anda */
 }
 
 .heading {
@@ -156,6 +154,7 @@ header {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  background-color: #e74c3c; /* Ganti kode warna sesuai keinginan Anda */
 }
 
 .message {
@@ -182,4 +181,4 @@ footer p {
 
 footer {
   padding-top: 30px;
-} 
+}

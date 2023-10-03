@@ -37,7 +37,7 @@ header {
     border-radius: 5px;
 }
 
-.Destinasi-Wisata h2 {
+.destinasi-item h3 {
     margin: 10px 0;
 }
 
@@ -57,13 +57,7 @@ footer {
     margin-top: 20px;
 }
 
-.pilih destinasi {
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-.pilih paket {
+#pilihdestinasi, #pilihdestinasi {
     padding: 5px;
     font-size: 16px;
     border: 1px solid #ddd;

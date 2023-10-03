@@ -13,16 +13,16 @@ header {
     padding: 20px;
 }
 
-/* Style the menu section */
-.menu {
+/* Style the Destinasi wisata */
+.destinasi {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
 }
 
-/* Style each menu item */
-.menu-item {
+/* Style paket liburan */
+.pilih-paket {
     max-width: 300px;
     margin: 20px;
     padding: 10px;
@@ -31,7 +31,7 @@ header {
     border-radius: 5px;
 }
 
-.menu-item img {
+.destinasi-wisata img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;

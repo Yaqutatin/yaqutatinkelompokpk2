@@ -13,7 +13,7 @@ header {
     padding: 20px;
 }
 
-/* Style the Destinasi wisata */
+/* Style the Destinasi Wisata Jawa Timur */
 .destinasi {
     display: flex;
     flex-wrap: wrap;
@@ -37,34 +37,41 @@ header {
     border-radius: 5px;
 }
 
-.menu-item h2 {
+.Destinasi-Wisata h2 {
     margin: 10px 0;
 }
 
-.menu-item p {
+.destinasi-item p {
     font-size: 14px;
 }
 
-.menu-item span {
+.destinasi-item span {
     font-weight: bold;
     color: #007bff;
     margin-top: 10px;
 }
-/* CSS untuk menu "Pilih Makanan" */
+
+/* CSS untuk menu "Pilih Destinasi" */
 footer {
     text-align: center;
     margin-top: 20px;
 }
 
-#pilihMakanan {
+.pilih destinasi {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.pilih paket {
     padding: 5px;
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
-/* CSS untuk elemen "Terima Kasih" */
-.terima-kasih {
+/* CSS untuk elemen "kontak" */
+.kontak-kami {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
@@ -73,9 +80,10 @@ footer {
     border-radius: 5px;
 }
 
-.terima-kasih p {
+.kontak-kami p {
     font-size: 18px;
 }
+
 /* Mengganti latar belakang dengan gambar blur */
 body {
     background-image: url('https://img.freepik.com/premium-photo/bay-leaf-black-pepper-black-background-condiments-flat-view-space-text_350891-622.jpg'); /* Ganti 'gambar-blur.jpg' dengan nama berkas gambar Anda */

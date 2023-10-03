@@ -1,183 +1,86 @@
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://img.freepik.com/premium-vector/smooth-color-wave-vectorcurved-lines-rainbow-abstract-multicolored-wave-flow_206325-1410.jpg);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.alamat {
-  background-color: #239b76;
-}
-
-.kontak {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.email {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
+/* Style the header */
 header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position: fixed;
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
+/* Style the menu section */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.header-left {
-  float: left;
+/* Style each menu item */
+.menu-item {
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
-.header-right {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+.menu-item h2 {
+    margin: 10px 0;
 }
 
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
+.menu-item p {
+    font-size: 14px;
 }
 
-.lesson-wrapper {
-  height: 500px;
-  padding-bottom: 80px;
-  background-color: #f7f7f7;
-  text-align: center;
-  background-color: #3498db; /* Ganti kode warna sesuai keinginan Anda */
+.menu-item span {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
 }
-
-.heading {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 90px;
-  width: 100%;
-  color: white;
-}
-
-.txt-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 20px;
-  font-size: 15px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-  background-color: #e74c3c; /* Ganti kode warna sesuai keinginan Anda */
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
+/* CSS untuk menu "Pilih Makanan" */
 footer {
-  padding-top: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pilihMakanan {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* CSS untuk elemen "Terima Kasih" */
+.terima-kasih {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.terima-kasih p {
+    font-size: 18px;
+}
+/* Mengganti latar belakang dengan gambar blur */
+body {
+    background-image: url('https://img.freepik.com/premium-photo/bay-leaf-black-pepper-black-background-condiments-flat-view-space-text_350891-622.jpg'); /* Ganti 'gambar-blur.jpg' dengan nama berkas gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Memastikan gambar tetap di tempat saat menggulir halaman */
+    color: #fff; /* Warna teks agar terlihat jelas di atas gambar blur */
 }

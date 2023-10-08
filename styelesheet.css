@@ -116,7 +116,7 @@ nav ul li {
     background-color: aliceblue;
     color: black;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 .destinasi-item:hover {
     box-shadow: 10px 13px 35px 0px rgba(0, 0, 0, 0.35);

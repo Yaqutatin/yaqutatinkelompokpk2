@@ -1,99 +1,143 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destinasi Wisata Jawa Timur</title>
-    <link rel="stylesheet" href="styelesheet.css">
-</head>
-<body>
-    <header>
-        <h1>PT Hallo Batu Indonesia</h1>
-        <nav>
-            <ul>
-                <li><a href="#destinasi">Destinasi Wisata</a></li>
-                <li><a href="#paket">Paket Liburan</a></li>
-                <li><a href="#kontak">Kontak Kami</a></li>
-            </ul>
-        <h2>Selamat Datang di "PT Hallo Batu Indonesia"! Selamat datang di situs resmi destinasi wisata yang memukau dan memanjakan mata Anda. Di sini, kami akan membawa Anda dalam perjalanan tak terlupakan menuju keindahan alam, budaya, dan keajaiban tempat-tempat yang luar biasa.Saksikan keajaiban alam yang menakjubkan, jelajahi warisan budaya yang kaya, dan nikmati pengalaman kuliner yang menggugah selera. Dari pegunungan yang megah hingga pantai berpasir putih, setiap sudut destinasi kami menawarkan keunikan dan keindahan tersendiri.Mari bergabung dengan kami dalam petualangan tak terlupakan, dan temukan keajaiban yang mengagumkan di "Nama Destinasi Wisata". Selamat menikmati perjalanan Anda!</h2>
-        </nav>
-    </header>
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
 
-    <section id="destinasi">
-        <h3>Destinasi Wisata</h3>
-        <div class="destinasi-list">
-            <div class="destinasi-item">
-                <img src="https://i.pinimg.com/564x/d2/4a/0c/d24a0c107877846089d1c124a1526136.jpg" alt="Destinasi 1">
-                <h4>Destinasi 1</h4>
-                <p>Gunung Bromo adalah lebih dari sekadar gunung, ia adalah sebuah pengalaman yang melampaui kata-kata. Mari temukan keindahan yang tak terlukiskan dari alam ini, dan biarkan Gunung Bromo menciptakan kenangan tak terlupakan dalam perjalanan hidup Anda.</p>
-            </div>
+/* Style the header */
+header {
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
-            <div class="destinasi-item">
-                <img src="https://i.pinimg.com/564x/6f/12/3f/6f123fd5194b3789e6559d7dc534e441.jpg" alt="Destinasi 2">
-                <h4>Destinasi 2</h4>
-                <p> Di malam hari, Kawah Ijen menampilkan fenomena alam yang luar biasa - api biru yang memancar dari lapisan belerang. Keajaiban ini menciptakan suasana mistis yang sungguh memukau dan tak dapat Anda saksikan di tempat lain di dunia.</p>
-            </div>
+header h1 {
+    background-color: rgb(252, 110, 110);
 
-            <div class="destinasi-item">
-                <img src="https://i.pinimg.com/originals/58/44/8c/58448c7bd3fbdd3a543f316b7669903a.jpg" alt="Destinasi 3">
-                <h4>Destinasi 3</h4>
-                <p>Gili Ketapang disebut sebagai wisata bahari terindah di Jawa Timur. Terutama keindahan bawah lautnya yang menjadi incaran para pencinta snorkeling. Meski kecil, panorama alamnya akan membuatmu terpesona. Ditambah keindahan pantai berpasir putih dan air laut biru yang menenangkan. </p>
-            </div>
-
-            <div class="destinasi-item">
-                <img src="https://i.pinimg.com/564x/8a/6a/1d/8a6a1d8274bd46f150274c0fa9f913c8.jpg" alt="Destinasi 4">
-                <h4>Destinasi 4</h4>
-                <p>Nusa Penida adalah sebuah pulau kecil yang terletak di sebelah tenggara Bali, Indonesia. Pulau ini merupakan bagian dari gugusan Kepulauan Nusa yang juga meliputi Nusa Lembongan dan Nusa Ceningan. Nusa Penida terkenal akan keindahan alamnya yang menakjubkan, termasuk pantai-pantai eksotis, tebing-tebing dramatis, dan pemandangan bawah laut yang luar biasa. Salah satunya adalah Pantai Kelingking yang terkenal dengan pemandangan mirip bentuk kepala Tyrannosaurus Rex yang memandang ke laut. Pantai ini memiliki tebing-tebing curam dan air laut yang jernih.</p>
-            </div>
-
-            <div class="destinasi-item">
-                <img src="https://i.pinimg.com/564x/22/fb/a9/22fba9442b0be2f0fe50677e8ad47b33.jpg" alt="Destinasi 5">
-                <h4>Destinasi 5</h4>
-                <p>Telaga Sarangan adalah sebuah danau alami yang terletak di lereng Gunung Lawu, Magetan, Jawa Timur, Indonesia. Kawasan Telaga Sarangan terkenal akan keindahan alamnya yang memukau, udara segar, serta udara sejuk yang membuatnya menjadi destinasi wisata yang populer.</p>
-            </div>
-
-            <div class="destinasi-item">
-                <img src="https://i.pinimg.com/564x/e6/bd/c0/e6bdc0d3f712ecfd71a7c2cdb02b8aa3.jpg" alt="Destinasi 6">
-                <h4>Destinasi 6</h4>
-                <p>Pantai Ngobaran adalah salah satu pantai yang terletak di Kabupaten Gunung Kidul, Yogyakarta, Indonesia. Pantai ini memiliki keunikan tersendiri dan merupakan tempat yang populer dikunjungi oleh wisatawan karena keindahan alamnya yang menakjubkan dan nilai-nilai budayanya yang kaya.</p>
-            </div>
+}
 
 
-            <!-- Tambahkan destinasi lainnya di sini -->
-        </div>
-    </section>
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+}
 
-    <div>
-        <p>Pilih Destinasi:</p>
-        <select id="pilihdestinasi">
-            <option value="Destinasi 1">Destinasi 1</option>
-            <option value="Destinasi 2">Destinasi 2</option>
-            <option value="Destinasi 3">Destinasi 3</option>
-            <option value="Destinasi 4">Destinasi 4</option>
-            <option value="Destinasi 5">Destinasi 5</option>
-            <option value="Destinasi 6">Destinasi 6</option>
-        </select>
-    </div>
+nav ul li a {
+    color: black;
+    width: 100%;
+    height: 100%;
+}
 
- 
+nav ul li {
+    color: black;
+    width: 100%;
+    height: 100%;
+    
+}
 
-    <div>
-        <p>Pilih Paket Liburan:</p>
-        <select id="pilihMakanan">
-            <option value="Paket Liburan 1">Paket Liburan 1</option>
-            <option value="Paket Liburan 2">Paket Liburan 2</option>
-        </select>
-    </div>
 
-    <section id="kontak">
-        <h2>Kontak Kami</h2>
-        <p>Alamat: Jl. Contoh No. 123, Kota Contoh, Jawa Timur</p>
-        <p>Email: info@hallobatu.co.id</p>
-        <p>Telepon: (123) 456-7890</p>
-    </section>
 
-    <footer>
-        <p>&copy; 2023 PT Hallo Batu Indonesia. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+/* Style the Destinasi Wisata Jawa Timur */
+#destinasi {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#destinasi h2 {
+    text-align: center;
+}
+
+/* Style paket liburan */
+.pilih-paket {
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+
+
+.destinasi-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.destinasi-item {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.destinasi-item:hover {
+    box-shadow: 10px 13px 35px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 10px 13px 35px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 10px 13px 35px 0px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2px);
+}
+
+.destinasi-list img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+
+.destinasi-item h3 {
+    margin: 10px 0;
+}
+
+.destinasi-item p {
+    font-size: 14px;
+}
+
+.destinasi-item span {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+/* CSS untuk menu "Pilih Destinasi" */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pilihdestinasi, #pilihdestinasi {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+/* Mengganti latar belakang dengan gambar blur */
+body {
+    background-image: url('./bg-cover.jpg'); /* Ganti 'gambar-blur.jpg' dengan nama berkas gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Memastikan gambar tetap di tempat saat menggulir halaman */
+    color: #fff; /* Warna teks agar terlihat jelas di atas gambar blur */
+}

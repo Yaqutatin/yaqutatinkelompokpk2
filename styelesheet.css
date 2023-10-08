@@ -10,6 +10,7 @@
 
 /* Style the header */
 header {
+    color: black;
     text-align: center;
     display: flex;
     flex-direction: column;

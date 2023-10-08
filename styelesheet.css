@@ -10,7 +10,6 @@
 
 /* Style the header */
 header {
-    color: #ffffff;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -21,9 +20,7 @@ header h1 {
     background-color: aliceblue;
 }
 header h2 {
-    color: black;
-    text-align: center;
-    
+    color: black; 
 }
 
 

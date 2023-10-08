@@ -18,8 +18,12 @@ header {
 }
 
 header h1 {
-    background-color: rgb(252, 110, 110);
-
+    background-color: aliceblue;
+}
+header h2:hover {
+    color: black;
+    text-align: center;
+    
 }
 
 

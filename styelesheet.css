@@ -149,15 +149,19 @@ nav ul li {
 /* CSS untuk menu "Pilih Destinasi" */
 footer {
     text-align: center;
-    margin-top: 20px;
+    margin: 20px auto; /* Tengah secara horizontal dan jarak atas-bawah 20 piksel */
 }
 
-#pilihdestinasi, #pilihdestinasi {
+
+#pilihdestinasi {
     padding: 5px;
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    margin: 0 auto; /* Tengah secara horizontal */
+    display: block; /* Pastikan elemen ini dianggap sebagai blok */
 }
+
 
 
 
